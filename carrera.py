@@ -7,7 +7,6 @@ menu='''
 2. Correr
 3. Mostrar info de corredores
 4. Salir
-
 '''
 
 while True:
@@ -25,7 +24,7 @@ while True:
         print(f"{personaje.nombre} creado exitosamente")
     elif opcion == 2:      
         
-        tiempo = personajes.corer()
-        print(f"{personaje.nombre}demoro {tiempo}")
+        tiempo = personaje.correr()
+        print(f"{personaje.nombre} demoro: {tiempo} segundos en correr 1000 metros")
     elif opcion == 3:
         print(personajes)
